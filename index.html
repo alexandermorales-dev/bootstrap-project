@@ -12,101 +12,213 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <link href="/style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet" />
   </head>
   <body>
-
     <header>
-        <div class="nav-top container d-flex justify-content-between align-items-center">
-            <div class="d-none d-lg-inline-block header-left">
-                <img src="images/33.webp" alt="">
-                <date class="d-block">Thu, Oct 08, 2020</date>
-            </div>
-            <svg class="nw-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
-                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
-                </g>
-            </svg>
-            <div class="d-flex align-items-center align-items-lg-end h-100 header-right">
-                <button class="btn text-light p-0 pr-2 pl-2 mr-2 text-uppercase d-none d-sm-block btn-1">login</button>
-                <button class="btn rounded-pill d-flex align-items-center text-uppercase justify-content-center btn-2"><b>subscribe ></b></button>
-                <button class="btn d-flex d-lg-none align-items-center p-0 pl-1">
-                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                </button>
-            </div>
+      <div
+        class="nav-top container d-flex justify-content-between align-items-center"
+      >
+        <div class="d-none d-lg-inline-block header-left">
+          <img src="images/33.webp" alt="" />
+          <date class="d-block">Thu, Oct 08, 2020</date>
         </div>
+        <svg
+          class="nw-logo"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 395.6 60"
+          style="enable-background: new 0 0 395.6 60"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+            ></path>
+          </g>
+        </svg>
+        <div
+          class="d-flex align-items-center align-items-lg-end h-100 header-right"
+        >
+          <button
+            class="btn text-light p-0 pr-2 pl-2 mr-2 text-uppercase d-none d-sm-block btn-1"
+          >
+            login
+          </button>
+          <button
+            class="btn rounded-pill d-flex align-items-center text-uppercase justify-content-center btn-2"
+          >
+            <b>subscribe ></b>
+          </button>
+          <button class="btn d-flex d-lg-none align-items-center p-0 pl-1">
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="bi bi-list text-light"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
     </header>
 
-    <nav class="navbar-expand-lg navbar-light"> 
-        <ul class="nav bottom-nav collapse navbar-collapse text-capitalize text-dark border-bottom">
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">U.S</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">world</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">business</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">tech & science</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">culture</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">newsgeek</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">sports</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">health</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">the debate</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">vantage</a>
-            </li>
-            <li class="flex-grow-1 nav-item border-right">
-                <a class="nav-link" href="#">weather</a>
-            </li>
-            <div class="input-group col-sm-1">
-                <input type="text" class="form-control form-control-sm border-0" placeholder="search">
-                <div>
-                    <button class="btn btn-sm" type="button" id="button-addon1">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                        </svg> search
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </div>
-        </ul>
-        <ul class="trending-list navbar-nav nav-bottom text-uppercase border-bottom collapse navbar-collapse flex-nowrap">
-            <li class="nav-item">
-                <a class="nav-link disabled text-dark" href="#">trending</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">donald trump</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">joe biden</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">stimulus package</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">coronavirus</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">2020 election</a>
-            </li>
-        </ul>
+    <nav class="navbar-expand-lg navbar-light">
+      <ul
+        class="nav bottom-nav collapse navbar-collapse text-capitalize text-dark border-bottom"
+      >
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">U.S</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">world</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">business</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">tech & science</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">culture</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">newsgeek</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">sports</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">health</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">the debate</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">vantage</a>
+        </li>
+        <li class="flex-grow-1 nav-item border-right">
+          <a class="nav-link" href="#">weather</a>
+        </li>
+        <div class="input-group col-sm-1">
+          <input
+            type="text"
+            class="form-control form-control-sm border-0"
+            placeholder="search"
+          />
+          <div>
+            <button class="btn btn-sm" type="button" id="button-addon1">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-search"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                />
+              </svg>
+              search
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </ul>
+      <ul
+        class="trending-list navbar-nav nav-bottom text-uppercase border-bottom collapse navbar-collapse flex-nowrap"
+      >
+        <li class="nav-item">
+          <a class="nav-link disabled text-dark" href="#">trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">donald trump</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">joe biden</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">stimulus package</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">coronavirus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">2020 election</a>
+        </li>
+      </ul>
     </nav>
+
+    <!-- FOOTER  -->
+
+    <div class="container fixed-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div class="row align-items-end border-bottom mb-2 pb-2">
+            <div class="col-12 col-md-4">
+              <a class="navbar-brand" href="#">
+                <img src="Newsweek-logo.png" alt="" width="100%" />
+              </a>
+            </div>
+            <div class="col-12 col-md-5">
+              <li class="nav-item list-unstyled navbar-bottom-text">
+                © 2021 NEWSWEEK DIGITAL LLC
+              </li>
+            </div>
+            <div class="col-12 col-md-3 icons">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-tumblr"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row navbar-bottom-text">
+          <div class="col-auto"><strong> Editions: </strong></div>
+          <div class="col-auto text-muted">U.S. Edition</div>
+          <div class="col-auto text-muted">日本</div>
+          <div class="col-auto text-muted">Pakistan</div>
+          <div class="col-auto text-muted">Polska</div>
+          <div class="col-auto text-muted">România</div>
+        </div>
+
+        <div class="row navbar-bottom-text text-muted pb-2">
+          <a class="col-auto">About Us</a>
+          <a class="col-auto">Corrections</a>
+          <a class="col-auto">Contact Us</a>
+          <a class="col-auto">Editorial Guidelines</a>
+          <a class="col-auto">Advertise</a>
+          <a class="col-auto">Copyright</a>
+          <a class="col-auto">Terms & Conditions</a>
+          <a class="col-auto">Privacy Policy</a>
+          <a class="col-auto">Cookie Policy</a>
+          <a class="col-auto">Terms of Sale</a>
+          <a class="col-auto">Archive</a>
+          <a class="col-auto">Announcements</a>
+        </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
