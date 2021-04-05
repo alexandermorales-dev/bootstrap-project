@@ -1,8 +1,99 @@
-@media only screen and (max-width: 576px) {
+/* navbar */
+/* nav {
+    background-color: red;
+    padding: 20px;
+} */
+
+header {
+    background-color: red;
+    padding: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+date {
+    font: 16px/34px "Roboto Condensed",sans-serif;
+    color: white;
+    display: block; 
 }
 
-@media only screen and (max-width: 992px) {
-} ;
+.nw-logo {
+    width: 400px;
+}
+
+.nw-logo path {
+    fill: white;
+}
+
+
+.btn-1 {
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    margin-right: 10px;
+    
+}
+
+.btn-2 {
+    height: 30px;
+    background-color: #ffe400;
+    color: #000;
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-right {
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border: 0 none;
+    list-style: none outside none;
+    outline: 0 none;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.header-left {
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border: 0 none;
+    list-style: none outside none;
+    -webkit-font-smoothing: antialiased;
+    width: 50%;
+}
+
+.bottom-nav {
+    margin: 0 auto;
+    padding: 1em 0;
+    max-width: 100%;
+    background-color: white;
+}
+
+.nav-link {
+    padding: 0;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #f72210;
+}
+
+.trending-list {
+    padding: 0.6em 2em;
+    font-size: 0.95em;
+    letter-spacing: -1px;
+}
