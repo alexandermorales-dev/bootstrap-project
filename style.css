@@ -98,7 +98,7 @@ date {
 
 .icons {
   opacity: 0.6;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .icons i {
@@ -107,4 +107,9 @@ date {
 
 .navbar-bottom-text {
   font-size: 14px;
+}
+
+.navbar-bottom-text a {
+  text-decoration: none;
+  color: inherit;
 }
