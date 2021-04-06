@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # News Week Project Clone
 This is a week 3 project to be implemented with bootstrap
 
