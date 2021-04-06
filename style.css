@@ -115,6 +115,24 @@ header {
   color: inherit;
 }
 
+.first-col img {
+  max-width: 100%;
+}
+
+.col-img {
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.col-img:nth-child(1) {
+  background-image: url(https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&amp;h=265&amp;q=90&amp;f=d759057143d283aa0ea0ed13fba5450a);
+}
+
+.col-img:nth-child(2) {
+  background-image: url(https://d.newsweek.com/en/full/1711585/trump-waves-south-lawn.webp?w=397&h=265&q=90&f=b1d4597db1fa3acb99946d38d0805862);
+}
+
 @media only screen and (max-width: 992px) {
   body {
     margin: 0;
