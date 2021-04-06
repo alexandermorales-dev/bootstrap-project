@@ -115,34 +115,13 @@ header {
   color: inherit;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   body {
     margin: 0;
   }
-  
+
   .btn-2 {
     font-size: small;
-  }
-
-  .ham-fa {
-    font-size: 30px;
-    margin-left: 10px;
-    color: #f4f5f6a9;
-    display: inline;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    margin: 0;
-  }
-
-  .btn-1 {
-    display: none;
-  }
-  
-  .btn-2 {
-    font-size: 10px;
   }
 
   .ham-fa {
@@ -155,8 +134,57 @@ header {
   .pro-fa {
     display: none;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .pro-fa {
+    display: none;
+  }
 
   .nw-logo {
-    width: 150px;
+    width: 400px;
+  }
+
+  .btn-2 {
+    font-size: 12px;
+    width: 110px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    margin: 0;
+  }
+
+  header {
+    width: 110%;
+  }
+
+  .btn-1 {
+    display: none;
+  }
+
+  .btn-2 {
+    font-size: 12px;
+    width: 110px;
+    padding: 5px;
+  }
+
+  .ham-fa {
+    font-size: 30px;
+    color: #f4f5f6a9;
+    display: inline;
+  }
+
+  .nw-logo {
+    width: 120px;
+  }
+
+  .pro-fa {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #f4f5f6a9;
   }
 }
