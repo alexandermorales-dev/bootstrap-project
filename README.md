@@ -27,9 +27,17 @@ In this project we have cloned [this](https://web.archive.org/web/20210120125445
 
 -Web browser
 
-### Setup
+#### Setup
 
--Download/Clone the repository files and navigate to index.html.
+On GitHub bash
+    _git clone https://github.com/AlexJustAlex2020/bootstrap-project.git_
+
+#### Usage
+
+- Most Operative Systems have the .html file extension associated to open with your default web browser.
+> In order to review the code, you may use your web browser inspect element option or open directly with a text editor.
+- In the cloned folder access open
+    _index.html_
 
 ### Install
 
