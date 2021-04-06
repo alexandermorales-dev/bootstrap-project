@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
+# News Week Project Clone
+This is a week 3 project to be implemented with bootstrap
 > Using Bootstrap - Clone of Newsweek
 
-![screenshot](./screenshot.png)
+![screenshot](assets/newsweek.png)
 
 In this project we have cloned [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) Newsweek web page using Bootstrap. We have implemented HTML5 and a little bit CSS as most of the styles come from Bootstrap. Also, instead of using Media Queries for responsiveness, we have used predefined classes from Bootstrap. 
 
