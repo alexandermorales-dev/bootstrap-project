@@ -1,9 +1,4 @@
 /* navbar */
-/* nav {
-    background-color: red;
-    padding: 20px;
-} */
-
 header {
   background-color: red;
   padding: 20px;
@@ -27,7 +22,7 @@ date {
   box-sizing: border-box;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 10px;
   margin-top: 15px;
   margin-bottom: 23px;
@@ -38,38 +33,10 @@ date {
   height: 30px;
   background-color: #ffe400;
   color: #000;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.header-right {
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  box-sizing: border-box;
-  border: 0 none;
-  list-style: none outside none;
-  outline: 0 none;
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 50%;
-}
-
-.header-left {
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  box-sizing: border-box;
-  border: 0 none;
-  list-style: none outside none;
-  -webkit-font-smoothing: antialiased;
-  width: 50%;
 }
 
 .bottom-nav {
@@ -77,13 +44,21 @@ date {
   padding: 1em 0;
   max-width: 100%;
   background-color: white;
+  padding-right: 10%;
+  display: flex;
 }
 
 .nav-link {
-  padding: 0;
   color: black;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;
   text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.border-right {
+  border-right: 1px solid hsla(0, 2%, 59%, 0.808);
 }
 
 .nav-link:hover {
