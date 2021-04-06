@@ -43,19 +43,17 @@ header {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 10px;
-  margin-top: 15px;
-  margin-bottom: 23px;
+  margin-bottom: 0px;
   margin-right: 10px;
 }
 
 .btn-2 {
-  height: 30px;
   background-color: #ffe400;
   color: #000;
   font-size: 18px;
   line-height: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: -5px;
+  margin-top: 10px;
 }
 
 .bottom-nav {
