@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   font-size: 15px;
   line-height: 20px;
+  margin: 0 20px 0 20px;
 }
 
 /* navbar */
@@ -115,6 +116,10 @@ header {
 }
 
 @media only screen and (max-width: 990px) {
+  body {
+    margin: 0;
+  }
+  
   .btn-2 {
     font-size: small;
   }
