@@ -42,8 +42,7 @@ header {
   cursor: pointer;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 10px;
-  margin-bottom: 0px;
+  padding: 0;
   margin-right: 10px;
 }
 
@@ -51,9 +50,12 @@ header {
   background-color: #ffe400;
   color: #000;
   font-size: 18px;
-  line-height: 10px;
-  margin-bottom: -5px;
-  margin-top: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ham-fa {
+   display: none;
 }
 
 .bottom-nav {
@@ -111,3 +113,17 @@ header {
   text-decoration: none;
   color: inherit;
 }
+
+@media only screen and (max-width: 990px) {
+  .btn-2 {
+    font-size: small;
+  }
+
+  .ham-fa {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #f4f5f6a9;
+    display: inline;
+  }
+
+} 
