@@ -2,7 +2,6 @@
 
 # News Week Project Clone
 This is a week 3 project to be implemented with bootstrap
-> Using Bootstrap - Clone of Newsweek
 
 ![screenshot](assets/newsweek.png)
 
