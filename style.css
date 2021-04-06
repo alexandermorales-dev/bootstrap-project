@@ -23,10 +23,10 @@ header {
 }
 
 .top-fa {
-  position:  absolute;
+  position: absolute;
   float: right;
   margin-top: -1.5%;
-  margin-left: 4%
+  margin-left: 4%;
 }
 
 .nw-logo {
@@ -55,7 +55,7 @@ header {
 }
 
 .ham-fa {
-   display: none;
+  display: none;
 }
 
 .bottom-nav {
@@ -125,5 +125,4 @@ header {
     color: #f4f5f6a9;
     display: inline;
   }
-
-} 
+}
