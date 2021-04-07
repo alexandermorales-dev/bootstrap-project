@@ -197,6 +197,34 @@ header {
   background-color: red;
 }
 
+.story .story__img-box {
+  width: 12rem;
+  align-self: stretch;
+}
+
+.story .story__title {
+  font-size: .9rem;
+}
+
+.story .story__link {
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+.story .story__link:hover {
+  text-decoration: underline solid var(--primary-color);
+  text-decoration-thickness: 2px;
+}
+
+.story-paragraph {
+  font-size: .8rem;
+  color: var(--tertiary-color);
+  text-transform: lowercase;
+}
+
+
 @media only screen and (min-width: 992px) {
   body {
     margin: 0;
@@ -233,6 +261,7 @@ header {
     padding: 5px;
   }
 }
+
 
 @media only screen and (max-width: 575px) {
   body {
