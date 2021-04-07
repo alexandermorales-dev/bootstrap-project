@@ -164,11 +164,16 @@ h4 a:hover {
   font-weight: bold;
 }
 
+.debate a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
 .debate-info {
   margin-left: 10px;
 }
 
-.debate-info a {
+.debate-info > a {
   font-size: 17px;
   text-decoration: none;
   color: inherit;
