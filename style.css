@@ -14,6 +14,10 @@ body > .container {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   outline: none;
 }
@@ -91,6 +95,21 @@ button {
   letter-spacing: -1px;
 }
 
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-bottom-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col-img a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .icons,
 .icons a {
   opacity: 0.6;
@@ -98,7 +117,8 @@ button {
   color: #000;
 }
 
-h4 a {
+.debate-info > a {
+  font-size: 17px;
   text-decoration: none;
   color: inherit;
 }
@@ -121,11 +141,6 @@ h4 a:hover {
   font-size: 14px;
 }
 
-.navbar-bottom-text a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .col-img {
   position: relative;
   background-position: 50%;
@@ -135,11 +150,6 @@ h4 a:hover {
 
 .col-img img {
   max-width: 100%;
-}
-
-.col-img a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .topic {
@@ -172,12 +182,6 @@ h4 a:hover {
 
 .debate-info {
   margin-left: 10px;
-}
-
-.debate-info > a {
-  font-size: 17px;
-  text-decoration: none;
-  color: inherit;
 }
 
 .contestant {
@@ -239,10 +243,6 @@ h4 a:hover {
   font-size: 0.9rem;
   color: var(--tertiary-color);
   text-transform: lowercase;
-}
-
-a {
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 992px) {
