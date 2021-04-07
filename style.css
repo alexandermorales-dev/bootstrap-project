@@ -120,17 +120,73 @@ header {
 }
 
 .col-img {
+  position: relative;
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 300px;
-}
-.col-img:nth-child(1) {
-  background-image: url(https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&amp;h=265&amp;q=90&amp;f=d759057143d283aa0ea0ed13fba5450a);
 }
 
-.col-img:nth-child(2) {
-  background-image: url(https://d.newsweek.com/en/full/1711585/trump-waves-south-lawn.webp?w=397&h=265&q=90&f=b1d4597db1fa3acb99946d38d0805862);
+.col-img img {
+  max-width: 100%;
+}
+
+.col-img a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topic {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+  color: red;
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.insight {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+  color: #3581f4;
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.img-container {
+  width: 30%;
+}
+
+.debate-info {
+  margin-left: 10px;
+}
+
+.debate-info a {
+  font-size: 17px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.vs-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.versus {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 992px) {
