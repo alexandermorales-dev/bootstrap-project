@@ -51,10 +51,10 @@
         <div
           class="col-md-4 d-flex align-items-center h-100 header-right col-sm-6 col-lg-3"
         >
-          <i class="fa fa-user pro-fa" aria-hidden="true"></i>
+          <i class="fa fa-user pro-fa d-md-none" aria-hidden="true"></i>
 
           <button
-            class="btn text-light p-0 pr-2 pl-2 mr-4 align-items-center text-uppercase d-none d-sm-block btn-1 fw-bold"
+            class="d-sm-none btn text-light p-0 pr-2 pl-2 mr-4 align-items-center text-uppercase d-none d-sm-block btn-1 fw-bold"
             type="button"
           >
             login
@@ -288,15 +288,13 @@
         </div>
         <!-- COL 2-->
 
-        <div class="col-lg-6 col-md-8 col-sm-12 mt-3 text-uppercase">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3 text-uppercase">
           <h5 class="text-muted"><strong> top stories </strong></h5>
           <div class="row">
             <div class="card border-0">
-              <img
-                src="assets/top-story-biden.webp"
+              <img src="assets/top-story-biden.webp"
                 class="card-img-top rounded-0"
-                alt="..."
-              />
+                alt="..."/>
               <div class="article-body">
                 <h5 class="card-title font-weight-bold">
                   Biden Campaign Targets Latino Men, Eyeing Obama-Level Hispanic
@@ -311,41 +309,41 @@
               </div>
             </div>
           </div>
-          <h6 class="text-secondary text-uppercase">my turn</h6>
+          <h6 class="text-secondary text-uppercase mt-4">my turn</h6>
           <div class="row">
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn1.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   'My Fiancé and I Met Across Balconies in Verona, Home of Romeo
                   and Juliet'.
                 </p>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn2.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   'I'm 99, And the Oldest Park Ranger in America'
                 </p>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn3.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   'I Divorced In April. Now I Live Across The World With A New
                   Love'
                 </p>
@@ -353,41 +351,41 @@
             </div>
           </div>
           <!-- 2nd row -->
-          <h6 class="text-secondary text-uppercase">culture & travel</h6>
+          <h6 class="text-secondary text-uppercase mt-4">culture & travel</h6>
           <div class="row">
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn4.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   Missing Flying? Flights to Nowhere Take Off As a New Travel
                   Trend
                 </p>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn5.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   100 Best Rock Albums of All Time, According to Critics
                 </p>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <img
                 src="assets/my-turn6.webp"
                 class="card-img-top rounded-0"
                 alt="..."
               />
               <div class="article-body">
-                <p class="card-text text-secondary">
+                <p class="card-text text-secondary mt-2 mb-4">
                   Plot an Escape Around the World With 'Accidentally Wes
                   Anderson'
                 </p>
@@ -395,88 +393,81 @@
             </div>
           </div>
           <!-- 3rd row  -->
-          <h6 class="text-secondary text-uppercase">more stories</h6>
+
+          <h6 class="text-secondary text-uppercase mt-3">more stories</h6>
+          
+          <!-- try -->
           <div class="media border-top border-bottom pt-3 pb-3">
-            <img src="assets/mitch-mcconnell.webp" class="mr-3" alt="..." />
-            <div class="media-body">
-              <h6 class="mt-0 font-weight-bold">
-                Senate GOP to Vote on Small-Business Relief Next Week Despite No
-                Stim Deal
-              </h6>
-              <p class="text-secondary m-0">
-                While Democrats will almost certainly block the bill, as they
-                did with a previous piecemeal bill by Republicans, it will offer
-                vulnerable GOP senators last-minute political ammunition as
-                voters prepare to cast their ballots.
-              </p>
-            </div>
-          </div>
+            <article class="story">
+              <div class="d-flex">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="story__link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
+            <article class="story border-top ">
+              <div class="d-flex mt-3">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="story__link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
+            <article class="story border-top">
+              <div class="d-flex mt-3">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="story__link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
 
-          <div class="media border-top pt-3 pb-3">
-            <img src="assets/mitch-mcconnell.webp" class="mr-3" alt="..." />
-            <div class="media-body">
-              <h6 class="mt-0 font-weight-bold">
-                Senate GOP to Vote on Small-Business Relief Next Week Despite No
-                Stim Deal
-              </h6>
-              <p class="text-secondary m-0">
-                While Democrats will almost certainly block the bill, as they
-                did with a previous piecemeal bill by Republicans, it will offer
-                vulnerable GOP senators last-minute political ammunition as
-                voters prepare to cast their ballots.
-              </p>
-            </div>
-          </div>
-          <div class="media border-top pt-3 pb-3">
-            <img src="assets/mitch-mcconnell.webp" class="mr-3" alt="..." />
-            <div class="media-body">
-              <h6 class="mt-0 font-weight-bold">
-                Senate GOP to Vote on Small-Business Relief Next Week Despite No
-                Stim Deal
-              </h6>
-              <p class="text-secondary m-0">
-                While Democrats will almost certainly block the bill, as they
-                did with a previous piecemeal bill by Republicans
-              </p>
-            </div>
-          </div>
-          <h6 class="text-secondary text-uppercase">latest stories</h6>
-          <div class="media border-top pt-3 pb-3">
-            <img
-              src="assets/mitch-mcconnell.webp"
-              class="mr-3 float-left"
-              alt="..."
-            />
-            <div class="media-body float-right">
-              <h6 class="mt-0 font-weight-bold">
-                Senate GOP to Vote on Small-Business Relief Next Week Despite No
-                Stim Deal
-              </h6>
-              <p class="text-secondary m-0">
-                While Democrats will almost certainly block the bill, as they
-                did with a previous piecemeal bill by Republicans, it will offer
-                vulnerable GOP senators last-minute political ammunition as
-                voters prepare to cast their ballots.
-              </p>
-            </div>
-          </div>
-          <div class="media border-top pt-3 pb-3">
-            <img src="assets/mitch-mcconnell.webp" class="mr-3" alt="..." />
-            <div class="media-body">
-              <h6 class="mt-0 font-weight-bold">
-                Senate GOP to Vote on Small-Business Relief Next Week Despite No
-                Stim Deal
-              </h6>
-              <p class="text-secondary m-0">
-                While Democrats will almost certainly block the bill, as they
-                did with a previous piecemeal bill by Republicans, it will offer
-                vulnerable GOP senators last-minute political ammunition as
-                voters prepare to cast their ballots.
-              </p>
-            </div>
-          </div>
-        </div>
-
+          <h6 class="text-secondary text-uppercase mt-3">latest stories</h6>
+          <article class="story border-top">
+              <div class="d-flex mt-3">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="story__link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
+            <article class="story border-top">
+              <div class="d-flex mt-3">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="story__link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
+            <article class="story border-top">
+              <div class="d-flex mt-3">
+                <figure class="story__img-box me-2">
+                    <img src="assets/mitch-mcconnell.webp" alt="joe biden in the congress" class="story__img">
+                </figure>
+                <div class="story__text-box">
+                  <h4 class="story__title"><a href="#" class="nav-link">Joe Biden and Xi Jinping's Diplomats to Talk Over 'Deep Disagreements'</a></h4>
+                  <p class="story__paragraph">Secretary of State Antony Blinken will be joined by national security adviser Jake Sullivan in a meeting with senior Chinese diplomats Yang Jiechi and Wang Yi in Alaska next</p>
+                </div>
+              </div>
+            </article>
+          </div> 
+      </div>
         <!-- COL 3 -->
 
         <div class="col-12 col-md-10 col-lg-3 offset-lg-12 mt-3">
