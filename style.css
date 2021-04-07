@@ -190,6 +190,13 @@ header {
   top: -20px;
 }
 
+.signup-img {
+  width: 50px;
+  margin-right: 10px;
+  height: 30px;
+  background-color: red;
+}
+
 @media only screen and (min-width: 992px) {
   body {
     margin: 0;
