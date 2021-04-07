@@ -21,11 +21,11 @@
   <body>
     <header>
       <div
-        class="container nav-top d-flex justify-content-between align-items-center"
+        class="container d-flex py-5 mt-3 nav-top justify-content-between align-items-center red"
       >
-        <div class="d-none d-lg-inline-block header-left">
+        <div class="d-lg-inline-block header-left">
           <img src="images/33.webp" alt="" />
-          <div class="d-block date">Thu, Oct 08, 2020</div>
+          <div class="d-none d-lg-block date">Thu, Oct 08, 2020</div>
         </div>
         <a class="nav-link" href="#"
           ><svg
@@ -48,27 +48,29 @@
             </g>
           </svg>
         </a>
-        <div
-          class="col-md-4 d-flex align-items-center h-100 header-right col-sm-6 col-lg-3"
-        >
-          <i class="fa fa-user pro-fa" aria-hidden="true"></i>
+        <!-- buttons wrapper  -->
+        <div class="d-inline-flex d-md-inline-flex">
+          <i class="fa fa-user pro-fa d-md-none" aria-hidden="true"></i>
 
           <button
-            class="btn text-light p-0 pr-2 pl-2 mr-4 align-items-center text-uppercase d-none d-sm-block btn-1 fw-bold"
+            class="d-none d-md-block btn text-light text-uppercase btn-1 fw-bold"
             type="button"
           >
             login
           </button>
+
           <button
-            class="btn rounded-pill d-flex align-items-center text-uppercase justify-content-center btn-2"
+            class="btn rounded-pill border-0 fw-bold text-uppercase btn-2"
             type="button"
           >
-            <b>subscribe ></b>
+            Subscribe
           </button>
-          <a href="#" class="nav-link ham-fa"
-            ><i class="fa ham-fa fa-bars" aria-hidden="true"></i
-          ></a>
+
+          <button type="button" class="btn btn-link">
+            <i class="fa ham-fa fa-bars" aria-hidden="true"></i>
+          </button>
         </div>
+        <!--  -->
       </div>
     </header>
 
@@ -479,7 +481,7 @@
 
         <!-- COL 3 -->
 
-        <div class="col-12 col-md-10 col-lg-3 offset-lg-12 mt-3">
+        <div class="col-12 col-md-10 col-lg-3 mt-3">
           <h5 class="text-muted text-uppercase">
             <strong> the debate </strong>
           </h5>
@@ -677,93 +679,114 @@
             </div>
 
             <!-- SPONSORED -->
-            <div class="col-md-8 offset-md-2 col-lg-auto mt-3">
-              <div class="col-img d-flex">
-                <img
-                  src="https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a"
-                  alt=""
-                />
-                <div class="insight"><a href=""> sponsored insight</a></div>
-              </div>
+            <div class="row">
+              <div class="col col-md-10 offset-md-1 mt-3">
+                <div class="col-img d-flex">
+                  <img
+                    src="https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a"
+                    alt=""
+                  />
+                  <div class="insight"><a href=""> sponsored insight</a></div>
+                </div>
 
-              <div class="row">
-                <div class="col signup-container bg-light py-5">
-                  <div class="signup-wrapper d-flex">
-                    <div class="signup-img d-flex justify-content-center">
-                      <img
-                        src="https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg"
-                        alt=""
-                      />
+                <div class="row">
+                  <div
+                    class="col signup-container bg-light py-3 border my-4 mx-3"
+                  >
+                    <div class="signup-wrapper d-flex align-items-center">
+                      <div class="signup-img d-flex justify-content-center">
+                        <img
+                          src="https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p class="text-uppercase fw-bold pt-4">
+                        start your day with our top 5 articles
+                      </p>
                     </div>
-                    <p class="text-uppercase">
-                      <strong> start your day with our top 5 articles </strong>
-                    </p>
+                    <form action="POST">
+                      <div class="input mb-2">
+                        <input
+                          type="email"
+                          class="form-control"
+                          aria-label="Sizing example input"
+                          aria-describedby="inputGroup-sizing-default"
+                          placeholder="Email address"
+                        />
+                      </div>
+                      <div class="d-grid gap-2">
+                        <button
+                          class="text-uppercase rounded btn btn-danger bg-wh red"
+                        >
+                          <strong> free sign up </strong>
+                        </button>
+                      </div>
+                    </form>
                   </div>
-                  <form action="POST">
-                    <input type="email" placeholder="Email address" />
-                    <button
-                      class="text-uppercase rounded btn btn-danger mt-2 mb-2 pl-2 pr-2"
-                    >
-                      free sign up
-                    </button>
-                  </form>
                 </div>
               </div>
+              <!--  -->
+              <div class="row">
+                <div class="col col-md-10 offset-md-1">
+                  <h4>
+                    Hungary: From Manufacturing Hub to Innovation and R&amp;D;
+                    Center
+                  </h4>
+                  <p>
+                    With its pro-business agenda and open-border policy for
+                    investors, the Central European nation is hoping to bounce
+                    back from the COVID-19 crisis, while making greater strides
+                    toward innovation, research and development.
+                  </p>
 
-              <h4>
-                Hungary: From Manufacturing Hub to Innovation and R&amp;D;
-                Center
-              </h4>
-              <p>
-                With its pro-business agenda and open-border policy for
-                investors, the Central European nation is hoping to bounce back
-                from the COVID-19 crisis, while making greater strides toward
-                innovation, research and development.
-              </p>
+                  <div class="col-img d-flex">
+                    <img
+                      src="https://d.newsweek.com/en/full/1708929/panama-online-photo.jpg?w=500&h=333&f=61184ec0c9ac388d6550edc3a27e123d"
+                      alt=""
+                    />
+                    <div class="insight"><a href=""> sponsored insight</a></div>
+                  </div>
+                  <h4>
+                    Panama - Central America's Leading Investment Destination
+                  </h4>
+                  <p>
+                    Panama is expected to rebound strongly in 2021, with growth
+                    forecasted between 4% and 7%.
+                  </p>
 
-              <div class="col-img d-flex">
-                <img
-                  src="https://d.newsweek.com/en/full/1708929/panama-online-photo.jpg?w=500&h=333&f=61184ec0c9ac388d6550edc3a27e123d"
-                  alt=""
-                />
-                <div class="insight"><a href=""> sponsored insight</a></div>
+                  <div class="col-img d-flex">
+                    <img
+                      src="https://d.newsweek.com/en/full/1680462/american-heritage-school.jpg?w=500&h=333&f=5f21b07620b0d3097fb92204c43a9b30"
+                      alt=""
+                    />
+                    <div class="insight"><a href=""> sponsored insight</a></div>
+                  </div>
+                  <h4>
+                    Why are Private Schools the Best Option for Your Child’s
+                    Future?
+                  </h4>
+                  <p>
+                    If academic results, average class size, teacher
+                    proficiency, pupil diversity and religious orthodoxy of your
+                    child’s school are things that are important to you, you
+                    should be looking at a private school.
+                  </p>
+
+                  <div class="col-img d-flex">
+                    <img
+                      src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce"
+                      alt=""
+                    />
+                    <div class="insight"><a href=""> rankings</a></div>
+                  </div>
+                  <h4>America's Best Nursing Homes 2021</h4>
+                  <p>
+                    In partnership with Statista, we established a ranking
+                    providing information and insights to help you during this
+                    challenging time.
+                  </p>
+                </div>
               </div>
-              <h4>Panama - Central America's Leading Investment Destination</h4>
-              <p>
-                Panama is expected to rebound strongly in 2021, with growth
-                forecasted between 4% and 7%.
-              </p>
-
-              <div class="col-img d-flex">
-                <img
-                  src="https://d.newsweek.com/en/full/1680462/american-heritage-school.jpg?w=500&h=333&f=5f21b07620b0d3097fb92204c43a9b30"
-                  alt=""
-                />
-                <div class="insight"><a href=""> sponsored insight</a></div>
-              </div>
-              <h4>
-                Why are Private Schools the Best Option for Your Child’s Future?
-              </h4>
-              <p>
-                If academic results, average class size, teacher proficiency,
-                pupil diversity and religious orthodoxy of your child’s school
-                are things that are important to you, you should be looking at a
-                private school.
-              </p>
-
-              <div class="col-img d-flex">
-                <img
-                  src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce"
-                  alt=""
-                />
-                <div class="insight"><a href=""> rankings</a></div>
-              </div>
-              <h4>America's Best Nursing Homes 2021</h4>
-              <p>
-                In partnership with Statista, we established a ranking providing
-                information and insights to help you during this challenging
-                time.
-              </p>
             </div>
           </div>
         </div>
