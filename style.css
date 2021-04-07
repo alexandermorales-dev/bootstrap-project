@@ -14,6 +14,10 @@ body > .container {
   background-color: white;
 }
 
+button {
+  outline: none;
+}
+
 /* navbar */
 .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
@@ -51,7 +55,7 @@ body > .container {
 
 .ham-fa {
   color: #f4f5f6a9;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 24px;
 }
 
@@ -201,11 +205,11 @@ body > .container {
 }
 
 @media only screen and (max-width: 575px) {
-  .ham-fa {
+  /* .ham-fa {
     font-size: 20px;
     color: #f4f5f6a9;
     display: inline;
-  }
+  } */
 
   .nw-logo {
     width: 120px;
