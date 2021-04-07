@@ -211,7 +211,6 @@ button {
   color: var(--black);
   font-weight: 700;
   text-decoration: none;
-
 }
 
 .story .story__link:hover {
@@ -251,7 +250,6 @@ button {
     width: 400px;
   }
 }
-
 
 @media only screen and (max-width: 575px) {
   /* .ham-fa {
