@@ -39,6 +39,7 @@ button {
 .nw-logo path {
   fill: white;
 }
+
 .red {
   background-color: red;
 }
@@ -55,6 +56,7 @@ button {
 
 .ham-fa {
   color: #f4f5f6a9;
+
   /* display: inline-block; */
   font-size: 24px;
 }
