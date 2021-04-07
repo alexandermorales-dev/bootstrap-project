@@ -11,6 +11,10 @@ body {
   margin: 0 20px 0 20px;
 }
 
+body > .container {
+  background-color: white;
+}
+
 /* navbar */
 header {
   background-color: red;
@@ -115,10 +119,6 @@ header {
   color: inherit;
 }
 
-.first-col img {
-  max-width: 100%;
-}
-
 .col-img {
   position: relative;
   background-position: 50%;
@@ -139,7 +139,6 @@ header {
   background-color: rgba(255, 255, 255, 0.9);
   display: inline;
   color: red;
-  width: fit-content;
   position: absolute;
   bottom: 0;
   text-transform: uppercase;
@@ -151,16 +150,11 @@ header {
   background-color: rgba(255, 255, 255, 0.9);
   display: inline;
   color: #3581f4;
-  width: fit-content;
   position: absolute;
   bottom: 0;
   text-transform: uppercase;
   padding: 2px 4px;
   font-weight: bold;
-}
-
-.img-container {
-  width: 30%;
 }
 
 .debate-info {
@@ -173,13 +167,19 @@ header {
   color: inherit;
 }
 
+.contestant {
+  border-bottom: 1px solid black;
+}
+
 .vs-container {
   display: flex;
+  position: relative;
   justify-content: center;
   width: 100%;
 }
 
 .versus {
+  position: absolute;
   font-weight: bold;
   background-color: black;
   color: white;
@@ -187,9 +187,10 @@ header {
   height: 35px;
   align-items: center;
   justify-content: center;
+  top: -20px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   body {
     margin: 0;
   }
@@ -206,11 +207,11 @@ header {
   }
 
   .pro-fa {
-    display: none;
+    display: none !important;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .pro-fa {
     display: none;
   }
@@ -229,10 +230,6 @@ header {
 @media only screen and (max-width: 575px) {
   body {
     margin: 0;
-  }
-
-  header {
-    width: 110%;
   }
 
   .btn-1 {
