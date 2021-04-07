@@ -8,19 +8,17 @@ body {
   overflow-x: hidden;
   font-size: 15px;
   line-height: 20px;
-  margin: 0 20px 0 20px;
 }
 
 body > .container {
   background-color: white;
 }
 
-/* navbar */
-header {
-  background-color: red;
-  padding: 20px;
+button {
+  outline: none;
 }
 
+/* navbar */
 .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
   color: white;
@@ -42,25 +40,23 @@ header {
   fill: white;
 }
 
+.red {
+  background-color: red;
+}
+
 .btn-1 {
-  box-sizing: border-box;
-  cursor: pointer;
-  text-transform: uppercase;
   font-size: 18px;
-  padding: 0;
-  margin-right: 10px;
 }
 
 .btn-2 {
   background-color: #ffe400;
   color: #000;
-  font-size: 18px;
-  padding-top: 0;
-  padding-bottom: 0;
+  font-size: 12px;
 }
 
 .ham-fa {
-  display: none;
+  color: #f4f5f6a9;
+  font-size: 24px;
 }
 
 .bottom-nav {
@@ -190,13 +186,19 @@ header {
   top: -20px;
 }
 
+.signup-wrapper p {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .signup-img {
-  width: 50px;
+  width: 60px;
   margin-right: 10px;
-  height: 30px;
+  height: 50px;
   background-color: red;
 }
 
+<<<<<<< HEAD
 .story .story__img-box {
   width: 12rem;
   align-self: stretch;
@@ -246,43 +248,21 @@ header {
   }
 }
 
+=======
+>>>>>>> 25bc3f25e23e11011331a0098388900d5001f9ff
 @media only screen and (max-width: 768px) {
-  .pro-fa {
-    display: none;
-  }
-
   .nw-logo {
     width: 400px;
-  }
-
-  .btn-2 {
-    font-size: 12px;
-    width: 110px;
-    padding: 5px;
   }
 }
 
 
 @media only screen and (max-width: 575px) {
-  body {
-    margin: 0;
-  }
-
-  .btn-1 {
-    display: none;
-  }
-
-  .btn-2 {
-    font-size: 12px;
-    width: 110px;
-    padding: 5px;
-  }
-
-  .ham-fa {
-    font-size: 30px;
+  /* .ham-fa {
+    font-size: 20px;
     color: #f4f5f6a9;
     display: inline;
-  }
+  } */
 
   .nw-logo {
     width: 120px;
