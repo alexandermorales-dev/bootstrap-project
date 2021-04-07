@@ -198,14 +198,13 @@ button {
   background-color: red;
 }
 
-<<<<<<< HEAD
 .story .story__img-box {
   width: 12rem;
   align-self: stretch;
 }
 
 .story .story__title {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .story .story__link {
@@ -221,11 +220,10 @@ button {
 }
 
 .story-paragraph {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--tertiary-color);
   text-transform: lowercase;
 }
-
 
 @media only screen and (min-width: 992px) {
   body {
@@ -248,8 +246,6 @@ button {
   }
 }
 
-=======
->>>>>>> 25bc3f25e23e11011331a0098388900d5001f9ff
 @media only screen and (max-width: 768px) {
   .nw-logo {
     width: 400px;
