@@ -52,6 +52,11 @@ button {
   background-color: red;
 }
 
+.grey {
+  color: black;
+  background-color: rgb(233, 233, 233);
+}
+
 .btn-1 {
   font-size: 18px;
 }
