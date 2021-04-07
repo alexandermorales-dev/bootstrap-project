@@ -91,6 +91,17 @@ button {
   letter-spacing: -1px;
 }
 
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h4 a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .icons,
 .icons a {
   opacity: 0.6;
