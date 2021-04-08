@@ -14,12 +14,21 @@ body > .container {
   background-color: white;
 }
 
+h5 {
+  color: black;
+}
+
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   outline: none;
+}
+
+image {
+  max-width: 100%;
 }
 
 /* navbar */
@@ -46,6 +55,11 @@ button {
 
 .red {
   background-color: red;
+}
+
+.grey {
+  color: black;
+  background-color: rgb(233, 233, 233);
 }
 
 .btn-1 {
@@ -123,6 +137,10 @@ h4 a {
   color: inherit;
 }
 
+.block-title > a {
+  color: #f72210;
+}
+
 h4 a:hover {
   color: inherit;
   text-decoration: underline;
@@ -154,7 +172,6 @@ h4 a:hover {
 
 .topic {
   background-color: rgba(255, 255, 255, 0.9);
-  display: inline;
   color: red;
   position: absolute;
   bottom: 0;
@@ -213,9 +230,10 @@ h4 a:hover {
 }
 
 .signup-img {
-  width: 60px;
+  width: 9rem;
   margin-right: 10px;
   height: 50px;
+  max-height: 100%;
   background-color: red;
 }
 
@@ -245,6 +263,122 @@ h4 a:hover {
   text-transform: lowercase;
 }
 
+/* content */
+.block-title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 11px;
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.cont-subfeature {
+  list-style: none;
+  padding-left: 0.1rem;
+}
+
+.magazine p {
+  line-height: 1.7rem;
+}
+
+.magazine a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: inherit;
+}
+
+.magazine-title {
+  height: 100px;
+}
+
+.magazine-img-logo {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.mag-img1 img {
+  max-width: 100%;
+}
+
+.mag-img img {
+  max-width: 100%;
+}
+
+.cover1 {
+  color: white;
+  margin-right: 10px;
+}
+
+.cover2 {
+  color: red;
+  background-color: white;
+}
+
+.cover2:hover {
+  color: red;
+}
+
+.newsletter h5 {
+  color: red;
+}
+
+.subscribe-container {
+  margin-left: 10px;
+}
+
+.img-text-container {
+  max-width: 100%;
+  display: block;
+}
+
+#img-text-container {
+  background-color: #f4f5f6;
+}
+
+.subscribe-img-container {
+  height: 250px;
+  width: 50%;
+}
+
+.subscribe-img-container-newsletter {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.subscribe-img-container-newsletter img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subscribe-img-container img {
+  max-width: 100%;
+}
+
+.subscribe-img-container .img2 {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+.subscribe-text {
+  /* width: 40%; */
+  max-width: 100%;
+}
+
+.subscribe-text h3 {
+  color: black;
+}
+
 @media only screen and (min-width: 992px) {
   body {
     margin: 0;
@@ -260,9 +394,11 @@ h4 a:hover {
     color: #f4f5f6a9;
     display: inline;
   }
+}
 
-  .pro-fa {
-    display: none !important;
+@media only screen and (min-width: 1024px) {
+  .img-text-container {
+    display: flex;
   }
 }
 
@@ -270,15 +406,19 @@ h4 a:hover {
   .nw-logo {
     width: 400px;
   }
+
+  .img-text-container {
+    display: flex;
+  }
+
+  .subscribe-img-container {
+    display: flex;
+    height: 250px;
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-  /* .ham-fa {
-    font-size: 20px;
-    color: #f4f5f6a9;
-    display: inline;
-  } */
-
   .nw-logo {
     width: 120px;
   }
@@ -288,5 +428,9 @@ h4 a:hover {
     margin: 0 10px;
     font-size: 1.5rem;
     color: #f4f5f6a9;
+  }
+
+  .img-text-container {
+    display: block;
   }
 }
