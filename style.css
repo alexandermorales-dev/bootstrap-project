@@ -394,6 +394,12 @@ h4 a:hover {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .img-text-container {
+    display: flex;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .nw-logo {
     width: 400px;
@@ -410,5 +416,9 @@ h4 a:hover {
     margin: 0 10px;
     font-size: 1.5rem;
     color: #f4f5f6a9;
+  }
+
+  .img-text-container {
+    display: block;
   }
 }
