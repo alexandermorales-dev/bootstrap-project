@@ -27,6 +27,9 @@ button {
   outline: none;
 }
 
+image {
+  max-width: 100%;
+}
 /* navbar */
 .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
