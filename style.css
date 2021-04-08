@@ -8,15 +8,21 @@ body {
   overflow-x: hidden;
   font-size: 15px;
   line-height: 20px;
-  margin: 0 20px 0 20px;
+}
+
+body > .container {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
 }
 
 /* navbar */
-header {
-  background-color: red;
-  padding: 20px;
-}
-
 .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
   color: white;
@@ -38,25 +44,23 @@ header {
   fill: white;
 }
 
+.red {
+  background-color: red;
+}
+
 .btn-1 {
-  box-sizing: border-box;
-  cursor: pointer;
-  text-transform: uppercase;
   font-size: 18px;
-  padding: 0;
-  margin-right: 10px;
 }
 
 .btn-2 {
   background-color: #ffe400;
   color: #000;
-  font-size: 18px;
-  padding-top: 0;
-  padding-bottom: 0;
+  font-size: 12px;
 }
 
 .ham-fa {
-  display: none;
+  color: #f4f5f6a9;
+  font-size: 24px;
 }
 
 .bottom-nav {
@@ -91,11 +95,38 @@ header {
   letter-spacing: -1px;
 }
 
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-bottom-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col-img a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .icons,
 .icons a {
   opacity: 0.6;
   font-size: 28px;
   color: #000;
+}
+
+.debate-info > a {
+  font-size: 17px;
+  text-decoration: none;
+  color: inherit;
+}
+
+h4 a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .icons i {
@@ -110,12 +141,111 @@ header {
   font-size: 14px;
 }
 
-.navbar-bottom-text a {
-  text-decoration: none;
-  color: inherit;
+.col-img {
+  position: relative;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 992px) {
+.col-img img {
+  max-width: 100%;
+}
+
+.topic {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.insight {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+  color: #3581f4;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.debate a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.debate-info {
+  margin-left: 10px;
+}
+
+.contestant {
+  border-bottom: 1px solid black;
+}
+
+.vs-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.versus {
+  position: absolute;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  top: -20px;
+}
+
+.signup-wrapper p {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.signup-img {
+  width: 60px;
+  margin-right: 10px;
+  height: 50px;
+  background-color: red;
+}
+
+.story .story__img-box {
+  width: 12rem;
+  align-self: stretch;
+}
+
+.story .story__title {
+  font-size: 0.9rem;
+}
+
+.story .story__link {
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.story .story__link:hover {
+  text-decoration: underline solid var(--primary-color);
+  text-decoration-thickness: 2px;
+}
+
+.story-paragraph {
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+  text-transform: lowercase;
+}
+
+@media only screen and (min-width: 992px) {
   body {
     margin: 0;
   }
@@ -132,50 +262,22 @@ header {
   }
 
   .pro-fa {
-    display: none;
+    display: none !important;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .pro-fa {
-    display: none;
-  }
-
+@media only screen and (max-width: 768px) {
   .nw-logo {
     width: 400px;
-  }
-
-  .btn-2 {
-    font-size: 12px;
-    width: 110px;
-    padding: 5px;
   }
 }
 
 @media only screen and (max-width: 575px) {
-  body {
-    margin: 0;
-  }
-
-  header {
-    width: 110%;
-  }
-
-  .btn-1 {
-    display: none;
-  }
-
-  .btn-2 {
-    font-size: 12px;
-    width: 110px;
-    padding: 5px;
-  }
-
-  .ham-fa {
-    font-size: 30px;
+  /* .ham-fa {
+    font-size: 20px;
     color: #f4f5f6a9;
     display: inline;
-  }
+  } */
 
   .nw-logo {
     width: 120px;
