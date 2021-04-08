@@ -245,6 +245,28 @@ h4 a:hover {
   text-transform: lowercase;
 }
 
+/* content */
+.block-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  padding-bottom: 11px;
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.image {
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+}
+
+.cont-subfeature {
+  list-style: none;
+}
+
 @media only screen and (min-width: 992px) {
   body {
     margin: 0;
