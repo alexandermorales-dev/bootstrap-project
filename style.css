@@ -27,6 +27,9 @@ button {
   outline: none;
 }
 
+image {
+  max-width: 100%;
+}
 /* navbar */
 .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
@@ -332,6 +335,7 @@ h4 a:hover {
 
 .img-text-container {
   max-width: 100%;
+  display: block;
 }
 
 #img-text-container {
@@ -388,10 +392,6 @@ h4 a:hover {
     color: #f4f5f6a9;
     display: inline;
   }
-
-  .pro-fa {
-    display: none !important;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -410,9 +410,5 @@ h4 a:hover {
     margin: 0 10px;
     font-size: 1.5rem;
     color: #f4f5f6a9;
-  }
-
-  .img-text-container {
-    display: block !important;
   }
 }
