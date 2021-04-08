@@ -258,9 +258,11 @@ h4 a:hover {
 }
 
 .image {
-  box-sizing: border-box;
-  border: 0 none;
   list-style: none outside none;
+}
+
+.art-cage {
+  margin-left: 18px;
 }
 
 .cont-subfeature {
