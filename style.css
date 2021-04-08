@@ -346,7 +346,7 @@ h4 a:hover {
 
 .subscribe-img-container {
   height: 250px;
-  width: 60%;
+  width: 50%;
 }
 
 .subscribe-img-container-newsletter {
@@ -405,6 +405,16 @@ h4 a:hover {
 @media only screen and (max-width: 768px) {
   .nw-logo {
     width: 400px;
+  }
+
+  .img-text-container {
+    display: flex;
+  }
+
+  .subscribe-img-container {
+    display: flex;
+    height: 250px;
+    width: 50%;
   }
 }
 
