@@ -334,6 +334,14 @@ h4 a:hover {
   margin-left: 10px;
 }
 
+.img-text-container {
+  max-width: 700px;
+}
+
+#img-text-container {
+  background-color: #f4f5f6;
+}
+
 .subscribe-img-container {
   height: 300px;
   width: 35%;
