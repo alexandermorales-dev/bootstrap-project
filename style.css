@@ -271,10 +271,6 @@ h4 a:hover {
   text-transform: none;
 }
 
-.image {
-  /* list-style: none outside none; */
-}
-
 .image img {
   max-width: 100%;
 }
