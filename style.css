@@ -47,6 +47,7 @@ image {
 
 .nw-logo {
   width: 400px;
+  animation: rotate 1s linear 0.5s;
 }
 
 .nw-logo path {
@@ -72,6 +73,12 @@ image {
   font-size: 12px;
 }
 
+.btn-2:hover {
+  color: orangered;
+  font-size: 1rem;
+  transition: 0.5s ease-in-out;
+}
+
 .ham-fa {
   color: #f4f5f6a9;
   font-size: 24px;
@@ -93,6 +100,10 @@ image {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+.transition a:hover {
+  transition: 0.5s ease-in-out;
 }
 
 .border-right {
@@ -432,5 +443,15 @@ h4 a:hover {
 
   .img-text-container {
     display: block;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
